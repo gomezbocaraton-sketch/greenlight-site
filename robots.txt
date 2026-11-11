@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://gomezbocaraton-sketch.github.io/greenlight-site/sitemap.xml
