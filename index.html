@@ -479,7 +479,7 @@ drop.addEventListener('drop',ev=>{try{fileIn.files=ev.dataTransfer.files;showFil
 
 /* ===== Form backend: Google Apps Script web app (saves to your private Google Sheet + Drive, emails you) =====
    Paste your Apps Script /exec URL below after deploying (see SETUP.md). */
-const FORM_ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
+const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwd5Rcj8Hkycvp0eWcHCmxfaaIHHB0yI_0Vj-FnP-2rRiXI8itPdi9WdxUOk7eFD1P1-g/exec';
 const MAX_MB = 20;
 const toB64 = f => new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result.split(',')[1]);r.onerror=rej;r.readAsDataURL(f)});
 async function sendForm(form, files){
