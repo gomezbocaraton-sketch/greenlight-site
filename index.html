@@ -7,6 +7,7 @@
 <meta name="description" content="Permit expediting and construction takeoffs for South Florida contractors. Miami-Dade, Broward and Palm Beach. Takeoffs back in 48 hours. Hablamos español.">
 <meta property="og:title" content="Greenlight Permits & Takeoffs">
 <meta property="og:description" content="Permits pulled and takeoffs done for South Florida contractors. Fast, flat-fee, bilingual.">
+<link rel="canonical" href="https://gomezbocaraton-sketch.github.io/greenlight-site/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
@@ -107,6 +108,7 @@ summary:after{content:"+";float:right;font-size:20px;color:var(--green-d);line-h
 details[open] summary:after{content:"–"}
 details p{color:var(--muted);margin-top:10px}
 footer{background:var(--ink);color:#a9bab1;padding:44px 0;font-size:14px}
+footer a{color:#cfe9d9}
 footer .wrap{display:grid;gap:12px}
 footer b{color:#fff}
 .disclaimer{font-size:12.5px;color:#7f9188;max-width:820px}
@@ -347,6 +349,7 @@ footer b{color:#fff}
   <div class="wrap">
     <div><b>Greenlight Permits & Takeoffs</b> · <span data-t="fArea">Serving Miami-Dade, Broward & Palm Beach</span></div>
     <div class="disclaimer" data-t="disc">Greenlight provides permit application preparation, submittal and tracking as the authorized agent of licensed contractors and owner-builders, and quantity takeoff services. We are not a law firm, do not provide legal advice, and do not prepare or review contracts, lien documents or releases.</div>
+    <div style="font-size:13px"><span data-t="fLinks">Local services:</span> <a href="permit-expediting-miami-dade/">Permit expediting Miami-Dade</a> · <a href="permit-expediting-broward/">Permit expediting Broward</a> · <a href="permit-expediting-palm-beach/">Permit expediting Palm Beach</a> · <a href="construction-takeoffs-miami-dade/">Takeoffs Miami-Dade</a> · <a href="construction-takeoffs-broward/">Takeoffs Broward</a> · <a href="construction-takeoffs-palm-beach/">Takeoffs Palm Beach</a></div>
     <div>© <span id="yr"></span> Greenlight Permits & Takeoffs</div>
   </div>
 </footer>
@@ -416,7 +419,7 @@ const T = {
   q3:'¿Qué recibo con un takeoff?',a3:'Una hoja de cantidades en Excel organizada por partida y área, más un PDF marcado para ver exactamente qué se contó. Usted agrega sus precios.',
   q4:'¿Cómo pago?',a4:'Al aprobar la cotización confirmada le enviamos un enlace de pago. Los takeoffs se pagan por adelantado; los permisos 50% al inicio y 50% al enviarlo.',
   disc:'Greenlight prepara, envía y da seguimiento a solicitudes de permisos como agente autorizado de contratistas licenciados y dueños-constructores, y ofrece servicios de takeoff de cantidades. No somos un bufete de abogados, no damos asesoría legal y no preparamos ni revisamos contratos, documentos de gravamen ni liberaciones.',
-  cH:'¿Preguntas antes de enviar planos?',cSub:'Envíenos un mensaje y le respondemos el mismo día hábil.',cBtn:'Contáctenos',cTitle:'Contáctenos',cMsg:'¿En qué le podemos ayudar?',cSend:'Enviar mensaje',cOkH:'Mensaje enviado.',cOkP:'Le respondemos el mismo día hábil.',cErrP:'Intente de nuevo en un minuto.',fArea:'Servimos Miami-Dade, Broward y Palm Beach'}
+  cH:'¿Preguntas antes de enviar planos?',cSub:'Envíenos un mensaje y le respondemos el mismo día hábil.',cBtn:'Contáctenos',cTitle:'Contáctenos',cMsg:'¿En qué le podemos ayudar?',cSend:'Enviar mensaje',cOkH:'Mensaje enviado.',cOkP:'Le respondemos el mismo día hábil.',cErrP:'Intente de nuevo en un minuto.',fArea:'Servimos Miami-Dade, Broward y Palm Beach',fLinks:'Servicios locales:'}
 };
 const EN = {};
 let lang='en', svc='permit';
